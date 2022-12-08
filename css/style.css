@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+ background-image: url("../image/download\ \(14\).jpg");
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+display: grid; 
+justify-content:center ; 
+align-items: center;
+}
+#body .content{
+
+    height: 200px;
+    width: 400px;
+    text-align: center;
+
+}
+ #body h1{
+
+    font-size: 60px;
+}
+#body h6{
+
+    font-size: 20px;
+} 
+ #body button{
+ padding: 10px 40px;
+ margin-top: 20px;
+ margin-left: 300px;
+ background:white;
+ color:black;
+ border-radius:15px;
+ cursor: pointer;
+} 
